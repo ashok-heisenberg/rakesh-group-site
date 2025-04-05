@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rakesh Group of Companies Private Limited</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #f9f9f9;
+      color: #333;
     }
 
     header {
       background-color: #003366;
       color: white;
-      padding: 20px 0;
+      padding: 20px;
       text-align: center;
     }
 
@@ -25,13 +26,9 @@
       padding: 40px 20px;
     }
 
-    .hero h2 {
-      margin-bottom: 10px;
-    }
-
     .section {
       padding: 30px 20px;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
     }
 
@@ -40,14 +37,32 @@
       padding-left: 20px;
     }
 
+    .images img {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .contact {
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
     footer {
       background-color: #003366;
       color: white;
       text-align: center;
       padding: 15px 0;
-      position: relative;
-      bottom: 0;
-      width: 100%;
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -59,7 +74,17 @@
 
   <section class="hero">
     <h2>Building Futures, Upholding Trust</h2>
-    <p>Your one-stop destination for legal expertise and quality real estate construction.</p>
+    <p>Your one-stop destination for legal expertise and real estate excellence.</p>
+  </section>
+
+  <section class="section introduction">
+    <h3>Who We Are</h3>
+    <p>
+      Rakesh Group of Companies Pvt. Ltd. is a multi-domain enterprise offering exceptional services in legal consultancy
+      and premium villa/apartment construction. With a legacy of trust and innovation, we are committed to delivering
+      excellence through integrity, quality, and client satisfaction. Whether you are planning your dream home or require
+      legal guidance, our expert team is here to assist you every step of the way.
+    </p>
   </section>
 
   <section class="section services">
@@ -68,6 +93,22 @@
       <li>Legal Services</li>
       <li>Villa and Apartment Construction</li>
     </ul>
+  </section>
+
+  <section class="section images">
+    <h3>Gallery</h3>
+    <div class="image-gallery">
+      <img src="https://via.placeholder.com/400x250?text=Villa+Project" alt="Villa Project">
+      <img src="https://via.placeholder.com/400x250?text=Apartment+Construction" alt="Apartment Construction">
+      <img src="https://via.placeholder.com/400x250?text=Legal+Consultation" alt="Legal Consultation">
+    </div>
+  </section>
+
+  <section class="section contact">
+    <h3>Contact Us</h3>
+    <p><strong>Email:</strong> contact@rakeshgroup.in</p>
+    <p><strong>Phone:</strong> +91 98765 43210</p>
+    <p><strong>Office Address:</strong> #10, Business Bay, MG Road, Bangalore - 560001</p>
   </section>
 
   <footer>
